@@ -11,6 +11,27 @@
     "dev": "cross-env NODE_ENV=development --mode=development webpack-dev-server --open --hot",
     "clean": "git clean -fxd"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacjman/my-frist-vue-app.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs2",
+    "vuejs2-tutorial",
+    "typescript",
+    "typescript2",
+    "typescript-decorators",
+    "node",
+    "nodejs",
+    "npm",
+    "webpack",
+    "webpack4"
+  ],
+  "bugs": {
+    "url": "https://github.com/pacjman/my-frist-vue-app/issues"
+  },
+  "homepage": "https://github.com/pacjman/my-frist-vue-app#readme",
   "dependencies": {
     "vue": "^2.5.16",
     "vue-class-component": "^6.2.0",
