@@ -27,6 +27,7 @@
 8. Edge case - Hit AC, enter operator without providing number, ensure the display remains unaffected.
 9. Edge case - Hit AC, enter some number value followed by an operator (e.g. "*") then immediately click a different operator (e.g. "/"). Expect the operator is replaced (e.g. * becomes /)
 10. Edge case - Provide an incomplete expression (e.g. 13 *) then click = to evaluate, confirm no calculation occurred, and nothing logged to running history.
+11. Edge case - Enter multiple zeroes for the first operand, then add some value to it, confirm the second value as result.
 
 ## Build Setup
 
