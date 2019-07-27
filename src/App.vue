@@ -127,16 +127,16 @@
       if ( Util.IsNumber(e) ) {
 
         if ( this.expr.length == 0 ) {
-          this.expr = e.toString();
+          if ( e != '0' ) {
+            this.expr = e.toString();
+          }
         } else {
           this.expr += e.toString();
         }
 
       } else {
 
-        if ( this.expr.length == 0) {
-          return;
-        } else {
+        if ( this.expr.length > 0) {
 
           let prev = this.expr[this.expr.length - 1];
           if ( Util.IsOperator(prev) ) {
@@ -168,7 +168,7 @@
 
       return this.expr.length > 0
         ? this.expr
-        : "0"
+        : '0'
         ;
 
     }
@@ -182,7 +182,7 @@
     }
 
     static IsOperator(e: string): boolean {
-      return ( e == "%" || e == "/" || e == "*" || e == "-" || e == "." );
+      return ( e == '%' || e == '/' || e == '*' || e == '-' || e == '+' || e == '.' );
     }
 
   }
