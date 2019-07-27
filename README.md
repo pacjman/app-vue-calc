@@ -4,16 +4,16 @@
 
 ## Requirements
 
-> Create a calculator that can add, subtract, multiply, and divide. Don't worry about order of operations.
-> The calculator should display running history of calculations made. 
-> The history should be persistent across calculations.
-> Nice to have: the history should persist browser refresh.
+* Create a calculator that can add, subtract, multiply, and divide. Don't worry about order of operations.
+* The calculator should display running history of calculations made. 
+* The history should be persistent across calculations.
+* Nice to have: the history should persist browser refresh.
 
 ## Abstract
 
-* This is based from vue-calculator sample work per José Salazar here: https://codepen.io/jsalazart
-* The example was modified to meet the above requirements and styled so the history looks similar to a running tape.
-* There were a number of buggy behaviors in the sample. See test cases for more details.
+> This is based from vue-calculator sample work per [José Salazar](https://codepen.io/jsalazart)
+> The example was modified to meet the above requirements and styled so the history looks similar to a running tape.
+> There were a number of buggy behaviors in the sample. See test cases for more details.
 
 ## Test Cases
 
